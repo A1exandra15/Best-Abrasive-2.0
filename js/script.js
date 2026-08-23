@@ -20,6 +20,8 @@ const DATA = [
    cols:["Тип","Зерно","Ціна"],
    rows:[["Т 27 / Т 29","Р 40",PRICE],["Т 27 / Т 29","Р 60",PRICE],["Т 27 / Т 29","Р 80",PRICE]]},
 
+
+
   {cat:"Пелюсткові диски", img:"images/photo_2026-08-15_18-05-10.jpg", brands:["BEST"],
    name:"Пелюстковий «Цирконієвий Оксид Алюмінію»", sub:"125 мм, Т27 / Т29",
    cols:["Тип","Зерно","Ціна"],
@@ -40,139 +42,122 @@ const DATA = [
    cols:["Марка","Діаметр","Фасування"],
    rows:[["АНО-21","3 мм","2,5 кг · 5 кг"],["АНО-21","4 мм","2,5 кг · 5 кг"],["АНО-36","3 мм","2,5 кг"],["АНО-36","4 мм","2,5 кг · 5 кг"]]},
 
-  {cat:"Зварювальний дріт", img:["images/photo_2026-08-15_18-05-12.jpg", "images/photo_2026-08-15_18-05-14.jpg"], brands:["BEST","Dneprometiz"],
+
+
+  {cat:"Зварювальний дріт", img:"images/photo_2026-08-15_18-05-12.jpg", brands:["BEST","Dneprometiz"],
    name:"Дріт зварювальний омідненний", sub:"СВ08Г2С, для напівавтомата",
    cols:["Бренд","Діаметр","Котушка"],
    rows:[["BEST","0,8 · 1,0 · 1,2 мм","5 кг · 15 кг"],["Dneprometiz","0,8 · 1,0 · 1,2 мм","5 кг · 15 кг"]]},
 
-  {cat:"Відрізні диски", img:"img/cut.jpg", brands:["GERRARD","BEST"],
+  {cat:"Відрізні диски", img:"images/photo_2026-08-15_18-05-12.jpg", brands:["GERRARD","BEST"],
    name:"Диск відрізний", sub:"Метал / нержавіюча сталь, A60S-BF41",
    cols:["Діаметр","Товщина","Ціна"],
    rows:[["125 мм","1,0 · 1,2 · 1,6 мм",PRICE],["150 мм","1,6 · 2,0 мм",PRICE],["180 мм","1,6 · 2,0 мм",PRICE],["230 мм","2,0 · 2,5 мм",PRICE],["300 мм","3,0 · 3,5 мм",PRICE],["355 мм","3,5 мм",PRICE],["400 мм","3,5 · 4,0 мм",PRICE]]},
 
-  {cat:"Зачисні диски", img:"img/grind.jpg", brands:["BEST","GERRARD"],
+  {cat:"Зачисні диски", img:"images/photo_2026-08-15_18-05-12.jpg", brands:["BEST","GERRARD"],
    name:"Диск зачисний", sub:"Обдирка зварних швів, A60S-BF41",
    cols:["Діаметр","Товщина","Ціна"],
    rows:[["125 мм","6,0 мм",PRICE],["150 мм","6,0 мм",PRICE],["180 мм","6,0 мм",PRICE],["230 мм","6,0 мм",PRICE]]},
 
-  {cat:"Пелюсткові диски", img:"img/flap-coral.jpg", brands:["BEST"],
+  {cat:"Пелюсткові диски", img:"images/photo_2026-08-15_18-05-12.jpg", brands:["BEST"],
    name:"Пелюстковий «Цирконієвий»", sub:"Шліфувальний, Т27 · soft / medium / hard",
    cols:["Діаметр","Тип","Жорсткість"],
    rows:[["125 мм","Т 27","Soft"],["125 мм","Т 27","Medium"],["125 мм","Т 27","Hard"]]},
 
-  {cat:"Пелюсткові диски", img:"images/photo_2026-08-15_18-05-16", brands:["BEST"],
+
+
+  {cat:"Пелюсткові диски", img:"images/photo_2026-08-15_18-05-16.jpg", brands:["BEST"],
    name:"Пелюстковий «Цирконієвий» 90 пелюстків", sub:"Підвищений ресурс, Т27 / Т29",
    cols:["Тип","Зерно","Ціна"],
    rows:[["Т 27 / Т 29","Р 40",PRICE],["Т 27 / Т 29","Р 60",PRICE],["Т 27 / Т 29","Р 80",PRICE]]},
 
-  {cat:"Пелюсткові диски", img:"images/photo_2026-08-15_18-05-16", brands:["BEST"],
+  {cat:"Пелюсткові диски", img:"images/photo_2026-08-15_18-05-16.jpg", brands:["BEST"],
    name:"Пелюстковий «Цирконієвий Оксид Алюмінію»", sub:"125 мм, Т27 / Т29",
    cols:["Тип","Зерно","Ціна"],
    rows:[["Т 27 / Т 29","Р 40",PRICE],["Т 27 / Т 29","Р 60",PRICE],["Т 27 / Т 29","Р 80",PRICE]]},
 
-  {cat:"Пелюсткові диски", img:"images/photo_2026-08-15_18-05-16", brands:["BEST"],
+  {cat:"Пелюсткові диски", img:"images/photo_2026-08-15_18-05-16.jpg", brands:["BEST"],
    name:"Пелюстковий «Карбід Кремнію»", sub:"125 мм, Т27 / Т29",
    cols:["Тип","Зерно","Ціна"],
    rows:[["Т 27 / Т 29","Р 40",PRICE],["Т 27 / Т 29","Р 60",PRICE],["Т 27 / Т 29","Р 80",PRICE],["Т 27 / Т 29","Р 100",PRICE],["Т 27 / Т 29","Р 120",PRICE]]},
 
-  {cat:"Пелюсткові диски", img:"images/photo_2026-08-15_18-05-16", brands:["BEST"],
+  {cat:"Пелюсткові диски", img:"images/photo_2026-08-15_18-05-16.jpg", brands:["BEST"],
    name:"Пелюстковий «Оксид Алюмінію — Електрокорунд»", sub:"Нормальний, 125 мм, Т27 / Т29",
    cols:["Тип","Зерно","Ціна"],
    rows:[["Т 27 / Т 29","Р 40",PRICE],["Т 27 / Т 29","Р 60",PRICE],["Т 27 / Т 29","Р 80",PRICE],["Т 27 / Т 29","Р 100",PRICE],["Т 27 / Т 29","Р 120",PRICE]]},
 
-  {cat:"Електроди", img:"img/electrodes.jpg", brands:["Sumy Electrode","Astorel-RC"],
+
+
+  {cat:"Електроди", img:"images/8j8oxf8itlbiet8aewyjwui51qhqn2qj.png", brands:["Sumy Electrode","Astorel-RC"],
    name:"Зварювальні електроди", sub:"АНО-21 · АНО-36, рутилові",
    cols:["Марка","Діаметр","Фасування"],
    rows:[["АНО-21","3 мм","2,5 кг · 5 кг"],["АНО-21","4 мм","2,5 кг · 5 кг"],["АНО-36","3 мм","2,5 кг"],["АНО-36","4 мм","2,5 кг · 5 кг"]]},
 
-  {cat:"Зварювальний дріт", img:"img/wire.jpg", brands:["BEST","Dneprometiz"],
+  {cat:"Зварювальний дріт", img:"images/8j8oxf8itlbiet8aewyjwui51qhqn2qj.png", brands:["BEST","Dneprometiz"],
    name:"Дріт зварювальний омідненний", sub:"СВ08Г2С, для напівавтомата",
    cols:["Бренд","Діаметр","Котушка"],
    rows:[["BEST","0,8 · 1,0 · 1,2 мм","5 кг · 15 кг"],["Dneprometiz","0,8 · 1,0 · 1,2 мм","5 кг · 15 кг"]]},
 
-   {cat:"Відрізні диски", img:"img/cut.jpg", brands:["GERRARD","BEST"],
+   {cat:"Відрізні диски", img:"images/8j8oxf8itlbiet8aewyjwui51qhqn2qj.png", brands:["GERRARD","BEST"],
    name:"Диск відрізний", sub:"Метал / нержавіюча сталь, A60S-BF41",
    cols:["Діаметр","Товщина","Ціна"],
    rows:[["125 мм","1,0 · 1,2 · 1,6 мм",PRICE],["150 мм","1,6 · 2,0 мм",PRICE],["180 мм","1,6 · 2,0 мм",PRICE],["230 мм","2,0 · 2,5 мм",PRICE],["300 мм","3,0 · 3,5 мм",PRICE],["355 мм","3,5 мм",PRICE],["400 мм","3,5 · 4,0 мм",PRICE]]},
 
-  {cat:"Зачисні диски", img:"img/grind.jpg", brands:["BEST","GERRARD"],
+  {cat:"Зачисні диски", img:"images/8j8oxf8itlbiet8aewyjwui51qhqn2qj.png", brands:["BEST","GERRARD"],
    name:"Диск зачисний", sub:"Обдирка зварних швів, A60S-BF41",
    cols:["Діаметр","Товщина","Ціна"],
    rows:[["125 мм","6,0 мм",PRICE],["150 мм","6,0 мм",PRICE],["180 мм","6,0 мм",PRICE],["230 мм","6,0 мм",PRICE]]},
 
-  {cat:"Пелюсткові диски", img:"img/flap-coral.jpg", brands:["BEST"],
+
+
+  {cat:"Пелюсткові диски", img:"images/8j8oxf8itlbiet8aewyjwui51qhqn2qjф.png", brands:["BEST"],
    name:"Пелюстковий «Цирконієвий»", sub:"Шліфувальний, Т27 · soft / medium / hard",
    cols:["Діаметр","Тип","Жорсткість"],
    rows:[["125 мм","Т 27","Soft"],["125 мм","Т 27","Medium"],["125 мм","Т 27","Hard"]]},
 
-  {cat:"Пелюсткові диски", img:"img/flap-zirc90.jpg", brands:["BEST"],
+  {cat:"Пелюсткові диски", img:"images/8j8oxf8itlbiet8aewyjwui51qhqn2qjф.png", brands:["BEST"],
    name:"Пелюстковий «Цирконієвий» 90 пелюстків", sub:"Підвищений ресурс, Т27 / Т29",
    cols:["Тип","Зерно","Ціна"],
    rows:[["Т 27 / Т 29","Р 40",PRICE],["Т 27 / Т 29","Р 60",PRICE],["Т 27 / Т 29","Р 80",PRICE]]},
 
-  {cat:"Пелюсткові диски", img:"img/flap-zirc-ao.jpg", brands:["BEST"],
+  {cat:"Пелюсткові диски", img:"images/8j8oxf8itlbiet8aewyjwui51qhqn2qjф.png", brands:["BEST"],
    name:"Пелюстковий «Цирконієвий Оксид Алюмінію»", sub:"125 мм, Т27 / Т29",
    cols:["Тип","Зерно","Ціна"],
    rows:[["Т 27 / Т 29","Р 40",PRICE],["Т 27 / Т 29","Р 60",PRICE],["Т 27 / Т 29","Р 80",PRICE]]},
 
-  {cat:"Пелюсткові диски", img:"img/flap-sic.jpg", brands:["BEST"],
+  {cat:"Пелюсткові диски", img:"images/8j8oxf8itlbiet8aewyjwui51qhqn2qjф.png", brands:["BEST"],
    name:"Пелюстковий «Карбід Кремнію»", sub:"125 мм, Т27 / Т29",
    cols:["Тип","Зерно","Ціна"],
    rows:[["Т 27 / Т 29","Р 40",PRICE],["Т 27 / Т 29","Р 60",PRICE],["Т 27 / Т 29","Р 80",PRICE],["Т 27 / Т 29","Р 100",PRICE],["Т 27 / Т 29","Р 120",PRICE]]},
 
-  {cat:"Пелюсткові диски", img:"img/flap-ao.jpg", brands:["BEST"],
+
+
+  {cat:"Пелюсткові диски", img:"images/8j8oxf8itlbiet8aewyjwui51qhqnц2qj.png", brands:["BEST"],
    name:"Пелюстковий «Оксид Алюмінію — Електрокорунд»", sub:"Нормальний, 125 мм, Т27 / Т29",
    cols:["Тип","Зерно","Ціна"],
    rows:[["Т 27 / Т 29","Р 40",PRICE],["Т 27 / Т 29","Р 60",PRICE],["Т 27 / Т 29","Р 80",PRICE],["Т 27 / Т 29","Р 100",PRICE],["Т 27 / Т 29","Р 120",PRICE]]},
 
-  {cat:"Електроди", img:"img/electrodes.jpg", brands:["Sumy Electrode","Astorel-RC"],
+  {cat:"Електроди", img:"images/8j8oxf8itlbiet8aewyjwui51qhqnц2qj.png", brands:["Sumy Electrode","Astorel-RC"],
    name:"Зварювальні електроди", sub:"АНО-21 · АНО-36, рутилові",
    cols:["Марка","Діаметр","Фасування"],
    rows:[["АНО-21","3 мм","2,5 кг · 5 кг"],["АНО-21","4 мм","2,5 кг · 5 кг"],["АНО-36","3 мм","2,5 кг"],["АНО-36","4 мм","2,5 кг · 5 кг"]]},
 
-  {cat:"Зварювальний дріт", img:"img/wire.jpg", brands:["BEST","Dneprometiz"],
+  {cat:"Зварювальний дріт", img:"images/8j8oxf8itlbiet8aewyjwui51qhqnц2qj.png", brands:["BEST","Dneprometiz"],
    name:"Дріт зварювальний омідненний", sub:"СВ08Г2С, для напівавтомата",
    cols:["Бренд","Діаметр","Котушка"],
    rows:[["BEST","0,8 · 1,0 · 1,2 мм","5 кг · 15 кг"],["Dneprometiz","0,8 · 1,0 · 1,2 мм","5 кг · 15 кг"]]},
-];
+  
+   {cat:"Зварювальний дріт", img:"images/8j8oxf8itlbiet8aewyjwui51qhqnц2qj.png", brands:["BEST","Dneprometiz"],
+   name:"Дріт зварювальний омідненний", sub:"СВ08Г2С, для напівавтомата",
+   cols:["Бренд","Діаметр","Котушка"],
+   rows:[["BEST","0,8 · 1,0 · 1,2 мм","5 кг · 15 кг"],["Dneprometiz","0,8 · 1,0 · 1,2 мм","5 кг · 15 кг"]]},
 
-document.querySelectorAll('.card').forEach((card, cardIndex) => {
-
-    const img = card.querySelector('.slide-img');
-    const prev = card.querySelector('.prev');
-    const next = card.querySelector('.next');
- 
-    const images = list[cardIndex].images;
-
-    let current = 0;
-
-    next.onclick = () => {
-        current++;
-
-        if (current >= images.length) {
-            current = 0;
-        }
-
-        img.src = images[current];
-    };
-
-    prev.onclick = () => {
-        current--;
-
-        if (current < 0) {
-            current = images.length - 1;
-        }
-
-        img.src = images[current];
-    };
-
-});
+  ];
 
 const grid=document.getElementById('grid');
 const filtersEl=document.getElementById('filters');
 const cats=["Усі",...[...new Set(DATA.map(d=>d.cat))]];
 let activeCat="Усі",query="";
-
 
 cats.forEach((c,i)=>{
   const b=document.createElement('button');
